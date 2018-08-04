@@ -30,3 +30,4 @@ C:\Users\Abhilash\Documents\Abhilash\Projects\AngularJS Projects\Angular2\Angula
 C:\Users\Abhilash\Documents\Abhilash\Projects\AngularJS Projects\Angular2\Angular2Demo\Angular2Demo\Angular2Demo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Users\Abhilash\Documents\Abhilash\Projects\AngularJS Projects\Angular2\Angular2Demo\Angular2Demo\Angular2Demo\obj\Debug\Angular2Demo.dll
 C:\Users\Abhilash\Documents\Abhilash\Projects\AngularJS Projects\Angular2\Angular2Demo\Angular2Demo\Angular2Demo\obj\Debug\Angular2Demo.pdb
+C:\Users\Abhilash\Documents\Abhilash\Projects\AngularJS Projects\Angular2\Angular2Demo\Angular2Demo\Angular2Demo\obj\Debug\Angular2Demo.csprojResolveAssemblyReference.cache
