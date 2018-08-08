@@ -12,7 +12,12 @@ var EmployeeComponent = /** @class */ (function () {
         this.firstname = "Abhilash";
         this.lastname = "Kusuma";
         this.age = 20;
+        this.showDetails = false;
     }
+    EmployeeComponent.prototype.toggleDetails = function () {
+        this.showDetails = !this.showDetails;
+        console.log("Button Clicked");
+    };
     EmployeeComponent = __decorate([
         core_1.Component({
             selector: 'my-employee',

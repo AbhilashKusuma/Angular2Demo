@@ -8,4 +8,10 @@ export class EmployeeComponent {
     firstname: string = "Abhilash";
     lastname: string = "Kusuma";
     age: number = 20 
+
+    showDetails: boolean = false;
+    toggleDetails(): void {
+        this.showDetails = !this.showDetails;
+        console.log("Button Clicked");
+    }
 }

@@ -7,8 +7,17 @@
         <td>Last Name</td>
         <td>{{lastname}}</td>
     </tr>
-    <tr>
+    <tr *ngIf ='showDetails' >
         <td>Age</td>
         <td>{{age}}</td>
     </tr>
 </table>
+<br />
+<input (input) ="firstname = $event.target.value" [value] ='firstname'/>
+<br />
+{{firstname}}
+<button (click) ='toggleDetails()'>{{showDetails?'Hide':'Show'}}</button>
+
+
+
+

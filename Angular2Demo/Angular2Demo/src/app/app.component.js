@@ -13,9 +13,21 @@ var AppComponent = /** @class */ (function () {
         this.ImgSrc = 'http://www.pragimtech.com/Images/Logo.JPG';
         this.firstName = "Abhilash";
         this.LastName = "Kusumaa";
+        this.fontSize = 10;
+        this.isItalic = true;
     }
     AppComponent.prototype.getFullName = function () {
         return (this.firstName + " " + this.LastName);
+    };
+    AppComponent.prototype.getstyles = function () {
+        var style = {
+            'font-size.px': this.fontSize,
+            'font-style': this.isItalic ? 'italic' : 'normal',
+        };
+        return style;
+    };
+    AppComponent.prototype.onClick = function () {
+        console.log('Button Clicked');
     };
     AppComponent = __decorate([
         core_1.Component({
