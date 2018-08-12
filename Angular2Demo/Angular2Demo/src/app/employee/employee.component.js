@@ -5,24 +5,35 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
 Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
 var EmployeeComponent = /** @class */ (function () {
     function EmployeeComponent() {
-        this.firstname = "Abhilash";
-        this.lastname = "Kusuma";
-        this.age = 20;
-        this.showDetails = false;
+        this.Employees = [
+            { firstName: 'Abhilash', lastName: 'Kusuma', age: 25, sex: 'M' },
+            { firstName: 'Mounika', lastName: 'Kusuma', age: 27, sex: 'F' },
+            { firstName: 'Ramadevi', lastName: 'Kusuma', age: 45, sex: 'F' },
+            { firstName: 'Manohar', lastName: 'Kusuma', age: 50, sex: 'M' },
+        ];
     }
-    EmployeeComponent.prototype.toggleDetails = function () {
-        this.showDetails = !this.showDetails;
-        console.log("Button Clicked");
+    EmployeeComponent.prototype.getEmployees = function () {
+        this.Employees = [
+            { firstName: 'Abhilash', lastName: 'Kusuma', age: 25, sex: 'M' },
+            { firstName: 'Mounika', lastName: 'Kusuma', age: 27, sex: 'F' },
+            { firstName: 'Ramadevi', lastName: 'Kusuma', age: 45, sex: 'F' },
+            { firstName: 'Manohar', lastName: 'Kusuma', age: 50, sex: 'M' },
+            { firstName: 'Ash', lastName: 'Ashwini', age: 25, sex: 'F' },
+        ];
     };
     EmployeeComponent = __decorate([
         core_1.Component({
             selector: 'my-employee',
             templateUrl: 'app/employee/employee.component.html'
-        })
+        }),
+        __metadata("design:paramtypes", [])
     ], EmployeeComponent);
     return EmployeeComponent;
 }());
