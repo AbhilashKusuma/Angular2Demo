@@ -130,6 +130,7 @@
     <TypeScriptCompile Include="src\app\app.component.ts" />
     <TypeScriptCompile Include="src\app\app.module.ts" />
     <TypeScriptCompile Include="src\app\employee\employee.component.ts" />
+    <TypeScriptCompile Include="src\app\employee\employeeTitle.Pipe.ts" />
     <TypeScriptCompile Include="src\main.ts" />
   </ItemGroup>
   <ItemGroup>

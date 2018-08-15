@@ -9,7 +9,7 @@
     </thead>
     <tbody>
         <tr *ngFor ="let employee of Employees">
-            <td>{{employee.firstName | uppercase}}</td>
+            <td>{{employee.firstName | uppercase | employeeTitle: employee.sex}}</td>
             <td>{{employee.lastName}}</td>
             <td>{{employee.age | currency:'USD':true:'1.3-3'}}</td>
             <td>{{employee.sex}}</td>            
